@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+table.horizontal-list-table, th ,td{
+	margin:0 auto;
+	margin-bottom:30px;
+	width:90%;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+	line-height:1.5;
+	white-space: nowrap;
+}
+
+table.horizontal-list-table th{
+	width:150px;
+	padding:10px;
+	font-weight:bold;
+	font-size:0.8em;
+	text-align:center;
+	vertical-align:top;
+	background:#FF8856;
+	color:#ffffff;
+}
+
+table.horizontal-list-table td{
+	width:350px;
+	padding:10px;
+	font-size:0.8em;
+	text-align:center;
+	vertical-align:middle;
+	text-align:left;
+	background:#ffffff;
+
+}
+
+table.vertical-list-table{
+	margin: 0 auto;
+	margin-bottom:30px;
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 1.4rem;
+	line-height: 2.0;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+table.vertical-list-table th{
+	width: 25%;
+	padding: 10px;
+	font-weight: 900;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: #FF8856;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: left;
+
+}
+
+table.vertical-list-table td{
+	height: 100%;
+	width: 100%;
+	border: 0.1px solid #ccc;
+	border-collapse: collapse;
+	background-color:white;
+}
+
+table.vertical-list-table, th,td{
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	line-height: 2.0;
+}
+
+.txt {
+	text-align: left;
+	padding-left:10px;
+}
+
+.txt-box {
+	width: 90%;
+	height: 100%;
+	margin-left:10px;
+}
+
+.center {
+	text-align:center;
+}
+
+img{
+	width : 100px;
+	height : 100px;
+	object-fit : contain;
+}
